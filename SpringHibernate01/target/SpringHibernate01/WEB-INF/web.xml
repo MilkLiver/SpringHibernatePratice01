@@ -23,9 +23,9 @@
 
         <!--處理上傳檔案用的-->
         <multipart-config>
-            <max-file-size>20848820</max-file-size>
-            <max-request-size>418018841</max-request-size>
-            <file-size-threshold>1048576</file-size-threshold>
+            <max-file-size>-1</max-file-size><!--上傳檔案的最大容量  原本20848820 -1不限制-->
+            <max-request-size>-1</max-request-size><!--HTTP請求允許的最大容量  原本418018841 -1不限制-->
+            <file-size-threshold>1048576</file-size-threshold><!--上傳檔案超出此容量，則會將資料寫入硬碟 原本1048576 -1不限制-->
         </multipart-config>
 
     </servlet>

@@ -9,15 +9,13 @@
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-    <title>BORAJI.COM</title>
+    <title>File Download</title>
 </head>
 <body>
-<h2>Spring MVC - File Download Example</h2>
+<h2>Spring MVC - File Download</h2>
 <hr>
 <ul>
-    <li><a href="/uploadSource/8525137i.jpg">Download File 1</a></li>
-    <li><a href="/SpringHibernate01/login">Download File 2</a></li>
-    <li><a href="/SpringHibernate01/download/8525137i.jpg">Download File 3</a></li>
+    ${filelist}
 </ul>
 </body>
 </html>
