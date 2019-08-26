@@ -8,15 +8,16 @@
 <%@ page isELIgnored="false" contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>Title</title>
+    <title>Login Page</title>
 </head>
 <body>
 <h2>User ${username} Login Success!</h2>
-<h3>${info}</h3>
-<%--<h2>${id}</h2>
-<h2>${username}</h2>
-<h2>${age}</h2>
-<h2>${email}</h2>
-<h2>${createTime}</h2>--%>
+<h3>${info}</h3><br/>
+<table>
+    <tr>
+        <td width="200px"><a href="/SpringHibernate01/fileUpload">Upload File</a></td>
+        <td width="200px"><a href="/SpringHibernate01/fileDownload">Download File</a></td>
+    </tr>
+</table>
 </body>
 </html>
