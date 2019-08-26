@@ -53,7 +53,7 @@ public class verification01 {
         Configuration configuration = new Configuration();
 
         //不給引數就預設載入hibernate.cfg.xml檔案，
-        configuration.configure("././SessionFactories/local_user.xml");
+        configuration.configure("SessionFactories/local_user.xml");
 
         //建立Session工廠物件
         SessionFactory factory = configuration.buildSessionFactory();
